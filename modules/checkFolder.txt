@@ -1,0 +1,18 @@
+local clonef = clonefunction;
+local cFolder = clonef(isfolder);
+local mFolder = clonef(makefolder)
+
+function checkFolder(name)
+    cFolder(name)
+end
+
+function createFolder(name)
+    mFolder(name)
+end
+
+if checkFolder("ErrorHandler") then
+else
+createFolder("ErrorHandler")
+end
+
+-- Folder Checker
