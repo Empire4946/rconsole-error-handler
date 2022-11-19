@@ -2,7 +2,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/error-hand
 
 local clonef = clonefunction;
 local pconsole = clonef(rconsoleprint);
--- local ppconsole = clonfe(print);
+-- local ppconsole = clonfe(print); (removed since no support)
 
 if pconsole then -- check if pconsole
 if error then
